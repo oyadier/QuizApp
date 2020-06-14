@@ -1,0 +1,21 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">What Do You Know</string>
+    <string name="user">User: ___</string>
+    <string name="scores">Scores:</string>
+    <string name="restart">Restart</string>
+    <string name="udacity">1) What is the name of the Udacity Chief Executive Officer?</string>
+    <string name="whatsapp_founder">2) Who is/are the founder(s) of WhatsApp?</string>
+    <string name="simplify">3) Simplify the this mathematical expression, 9 *2 +(12/4). What is the result?</string>
+    <string name="ghana_pre">4) What is the name of the President of Ghana?</string>
+    <string name="highest_mou">5) The following are some of the names of mountains that can be found in Africa. Select the highest?</string>
+    <string name="sitting_pre">6) In Ghana, the name of the first sitting president to have died is.....?</string>
+    <string name="mobabe">7) How many years has former President Mugabe, president of Zimbabwe, ruled before overthrown by military coup?</string>
+    <string name="obama">8) The former President of United States of America, President Barack Obama, comes from which of the following Africa countries?</string>
+    <string name="heart">9) The human heart has how many valves?</string>
+    <string name="iodine">10) Which of  the following deficiencies is caused by iodine deficiency?</string>
+    <string name="instruction">" The Quiz contains 10 general questions.
+        From Question 1 to 8, your answer will be marked instantly and so you are advised to think carefully before making your choice since other optional answers will be deactivated unless you restart the whole quiz.
+        Press on the Mark button to mark only question 9 which will be followed by a feedback.
+        Question 10 will also be marked automatically with a feedback on your selected answer.
+        Good Luck"</string>
+</resources>

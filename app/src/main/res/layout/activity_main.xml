@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/DashBoard"
+            android:text="@string/user"></TextView>
+
+        <TextView
+
+            style="@style/DashBoard"
+            android:layout_marginLeft="20dp"
+            android:text="@string/scores"></TextView>
+
+        <TextView
+            android:id="@+id/marks"
+            style="@style/DashBoard"
+            android:text=" "></TextView>
+
+        <Button
+            android:id="@+id/restart_all_questoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@color/colorAccent"
+            android:text="@string/restart"></Button>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:context=".MainActivity"
+            android:background="@color/White">
+
+            <TextView
+                android:id="@+id/question1"
+                style="@style/Question"
+                android:text="@string/udacity" />
+
+            <ImageView
+                android:id="@+id/mark_correct"
+                style="@style/Image_Attributes"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/radio1"></ImageView>
+
+            <RadioGroup
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question1"
+                android:layout_marginBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/radio1_A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gabriel Dalporto">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio1_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mark Zuckerberg"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio1_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sundar Pichai"></RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question2"
+                style="@style/Question"
+                android:layout_below="@id/radio1"
+                android:text="@string/whatsapp_founder" />
+
+            <ImageView
+                android:id="@+id/mark_correct2"
+                style="@style/Image_Attributes"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="160dp"
+                android:layout_toRightOf="@id/radio2"></ImageView>
+
+            <RadioGroup
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question2">
+
+                <RadioButton
+                    android:id="@+id/radio2_A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ktart Juans and Robert"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio2_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Robert Mike "></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio2_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brian Acton  and Jan koum"></RadioButton>
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question3"
+                style="@style/Question"
+                android:layout_below="@id/radio2"
+                android:text="@string/simplify" />
+
+            <ImageView
+                android:id="@+id/mark_correct3"
+                style="@style/Image_Attributes"
+                android:layout_marginStart="300dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="320dp"
+                android:layout_toRightOf="@id/radio3"></ImageView>
+
+            <RadioGroup
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question3">
+
+                <RadioButton
+                    android:id="@+id/radio3_A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="22"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio3_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio3_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="22"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question4"
+                style="@style/Question"
+                android:layout_below="@id/radio3"
+                android:text="@string/ghana_pre" />
+
+            <ImageView
+                android:id="@+id/mark_correct4"
+                style="@style/Image_Attributes"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="400dp"
+                android:layout_toRightOf="@id/radio4"></ImageView>
+
+            <RadioGroup
+                android:id="@+id/radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question4">
+
+                <RadioButton
+                    android:id="@+id/radio4_A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Dramani Mahama"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio4_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nana Addo-Dankwah Akuffo-Addo"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio4_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jerry John Rawlins"></RadioButton>
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/question5"
+                style="@style/Question"
+                android:layout_below="@id/radio4"
+                android:text="@string/highest_mou" />
+
+            <ImageView
+                android:id="@+id/mark_correct5"
+                style="@style/Image_Attributes"
+                android:layout_marginStart="220dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="570dp"
+                android:layout_toRightOf="@id/radio5"></ImageView>
+
+            <RadioGroup
+                android:id="@+id/radio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question5">
+
+                <RadioButton
+                    android:id="@+id/radio5_A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karisimbi"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio5_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Afadja"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio5_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kilimanjaro"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question6"
+                style="@style/Question"
+                android:layout_below="@id/radio5"
+                android:text="@string/sitting_pre" />
+
+            <ImageView
+                android:id="@+id/mark_correct6"
+                style="@style/Image_Attributes"
+                android:layout_marginStart="90dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="700dp"
+                android:layout_toRightOf="@id/radio6"></ImageView>
+
+            <RadioGroup
+                android:id="@+id/radio6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question6">
+
+                <RadioButton
+                    android:id="@+id/radio6_A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="President John Kuffour"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio6_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="President Dr. Kwame Inkrumah"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio6_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="President John Evans Attah-Mills"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question7"
+                style="@style/Question"
+                android:layout_below="@id/radio6"
+                android:text="@string/mobabe" />
+
+            <ImageView
+                android:id="@+id/mark_correct7"
+                style="@style/Image_Attributes"
+                android:layout_marginStart="220dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="850dp"
+                android:layout_toRightOf="@id/radio7"></ImageView>
+
+            <RadioGroup
+                android:id="@+id/radio7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question7">
+
+                <RadioButton
+                    android:id="@+id/radio7_A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="40 years"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio7_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="41 yeaars"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio7_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50 years"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question8"
+                style="@style/Question"
+                android:layout_below="@id/radio7"
+                android:text="@string/obama" />
+
+            <ImageView
+                android:id="@+id/mark_correct8"
+                style="@style/Image_Attributes"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1000dp"
+                android:layout_toRightOf="@id/radio8"></ImageView>
+
+            <RadioGroup
+                android:id="@+id/radio8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio8_A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zambia"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio8_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Namibia"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio8_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kenya"></RadioButton>
+            </RadioGroup>
+
+            <RelativeLayout
+                android:id="@+id/question9Re"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radio8"
+                android:layout_marginBottom="10dp"
+                >
+                <TextView
+                    android:id="@+id/question9"
+                    style="@style/Question"
+                    android:text="@string/heart"
+                    />
+
+                <EditText
+                    android:id="@+id/user_input"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:hint="Answer in words:"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    ></EditText>
+
+                <Button
+                    android:id="@+id/mark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mark"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/user_input"
+                    android:textAllCaps="false"
+                    >
+                </Button>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question9Re"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/question10"
+                    style="@style/Question"
+                    android:layout_below="@id/user_input"
+                    android:text="@string/iodine" />
+
+                    <CheckBox
+                        android:id="@+id/checkA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kwashiorkor"></CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/checkB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Malaria"></CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/checkC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Goiter"></CheckBox>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

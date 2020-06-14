@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qu\'est-ce Ue Tu Sais</string>
+    <string name="user">Utilisatrice</string>
+    <string name="udacity">1) Quel est le nom du chef de la direction d\'Udacity?</string>
+    <string name="scores">Les scores:</string>
+    <string name="restart">Redémarrer</string>
+    <string name="ghana_pre">4) Quel est le nom du président du Ghana?</string>
+    <string name="heart">9) Le cœur humain a combien de valves?</string>
+    <string name="highest_mou">5) Voici quelques noms de montagnes que l’on peut trouver en Afrique. Sélectionnez le plus élevé?</string>
+    <string name="iodine">10) Laquelle des carences suivantes est causée par le manque d\'iode dans l\'alimentation humaine?</string>
+    <string name="mobabe">7) Combien d\'années l\'ancien président Mugabe, président du Zimbabwe, a-t-il statué avant d\'être renversé par un coup d\'État militaire?</string>
+    <string name="obama">8) L\'ancien président des États-Unis d\'Amérique, le président Barack Obama, vient de quel pays d\'Afrique suivants?</string>
+    <string name="simplify">3) Simplifiez l\'expression mathématique de cette expression, 9 * 2 + (12/4). Quel est le résultat?</string>
+    <string name="sitting_pre">6) Au Ghana, le premier président à être décédé est .....?</string>
+    <string name="whatsapp_founder">2) Qui est / sont le (s) fondateur (s) de WhatsApp?</string>
+    <string name="instruction">Le quiz contient 10 questions générales. De la question 1 à la question 8, votre réponse sera notée instantanément. Nous vous conseillons donc de bien réfléchir avant de marquer votre choix, car les autres réponses facultatives seront désactivées, à moins que vous ne relanciez le test complet. Appuyez sur le bouton Marquer pour ne marquer que la question 9 avec sera suivie d\'un retour. La question 10 sera également automatiquement marquée par un retour d\'information sur la réponse que vous avez sélectionnée. Bonne chance</string>
+</resources>
